@@ -10,7 +10,6 @@ type NavContentProps = {
 }
 
 const NavContent = (props: NavContentProps) => {
-    console.log(props.user)
     return (
         <>
             <AuthModal />
